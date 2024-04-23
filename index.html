@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dressly</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="padding-block-nav">
+      <div class="container">
+        <div class="mobile">
+          <img src="image/nav/Status Bar.png" alt="" />
+        </div>
+        <div class="nav-wrapper d-flex-main" style="--content: space-between">
+          <div class="humberger">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+          </div>
+
+          <a href="#"><img src="image/nav/logo.png" alt="logo" /></a>
+          <nav class="primary-navigation">
+            <ul class="list d-flex-main gap-2">
+              <li>
+                <a href="#Shop" class="text-neutral-700 fw-semi-bold ff-nav"
+                  >Shop</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#New Arrivals"
+                  class="text-neutral-700 fw-semi-bold ff-nav"
+                  >New Arrivals</a
+                >
+              </li>
+              <li>
+                <a href="#Sale" class="text-neutral-700 fw-semi-bold ff-nav"
+                  >Sale</a
+                >
+              </li>
+              <li>
+                <a href="#Blog" class="text-neutral-700 fw-semi-bold ff-nav"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+            <div class="nav-extra">
+              <span id="search">
+                <img src="image/nav/search.png" alt="" />
+              </span>
+              <span id="cart">
+                <img src="image/nav/cart.png" alt="" />
+              </span>
+            </div>
+          </nav>
+          <div class="extra d-flex-main gap-1">
+            <span id="search">
+              <img src="image/nav/search.png" alt="" />
+            </span>
+            <span id="cart">
+              <img src="image/nav/cart.png" alt="" />
+            </span>
+            <span id="user">
+              <img src="image/nav/user.png" alt="" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero padding-block-400">
+        <div class="container">
+          <div class="wrapper d-flex">
+            <div class="hero-content">
+              <h1 class="fs-primary-heading ff-secondary fw-semi-bold">
+                Discover the Latest Fashion Trends
+              </h1>
+              <p
+                class="text-neutral-500 fw-reguler text-primary-500 fs-1 ff-primary"
+              >
+                From stylish dresses to trendy tops and must-have accessories,
+                we have everything you need to stay on top of the latest fashion
+                trends. Our expertly curated collection features the hottest
+                styles from top designers, so you can always find the perfect
+                look for any occasion. Shop now and discover your new favorite
+                fashion pieces.
+              </p>
+              <button class="btn">Shop Now</button>
+            </div>
+            <div class="hero-image">
+              <img src="image/img-hero.png" alt="our design" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsor padding-block-400">
+        <div class="container">
+          <div class="swrapper">
+            <div class="sponsor">
+              <img src="image/sponsor/Berluti-Logo.wine.png" alt="" />
+            </div>
+            <div class="sponsor">
+              <img src="image/sponsor/Gucci-Logo.wine.png" alt="" />
+            </div>
+            <div class="sponsor">
+              <img src="image/sponsor/Jimmy_Choo_Ltd-Logo.wine.png" alt="" />
+            </div>
+            <div class="sponsor">
+              <img src="image/sponsor/Burberry-Logo.wine.png" alt="" />
+            </div>
+            <div class="sponsor">
+              <img src="image/sponsor/Balenciaga-Logo.wine.png" alt="" />
+            </div>
+            <div class="sponsor">
+              <img src="image/sponsor/Louis_Vuitton-Logo.wine.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-product-section padding-block-500">
+        <div class="container">
+          <h2 class="fs-third-heading fw-semi-bold ff-primary">
+            Top Selections
+          </h2>
+          <div class="top-products-content">
+            <div class="top-product">
+              <img src="image/top-product/Top-selections (2).png" alt="" />
+            </div>
+            <div class="top-product">
+              <img src="image/top-product/Top-selections (3).png" alt="" />
+            </div>
+            <div class="top-product">
+              <img src="image/top-product/Top-selections (4).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="best-seller padding-block-500">
+        <div class="container">
+          <div class="d-flex-main" style="--content: space-between">
+            <h2 class="fs-secondary-heading ff-primary fw-semi-bold">
+              Bestsellers
+            </h2>
+            <span class="ff-nav fw-semi-bold text-primary-500"> See ALL </span>
+          </div>
+
+          <swiper-container
+            class="mySwiper"
+            slides-per-view="4"
+            space-between="16"
+          >
+            <swiper-slide
+              ><div>
+                <img
+                  src="image/slider/9aa81bd8-5178-473f-a156-591d243c5c7c 1.png"
+                  alt="Sneaker"
+                />
+              </div>
+              <div class="slide-content">
+                <h3 class="sub fs-sub-heading fw-medium">Sneaker</h3>
+                <div class="details">
+                  <div class="spesification d-flex-main">
+                    <img src="image/Union.png" alt="" />
+                    <p>4.5</p>
+                    <span>(325)</span>
+                  </div>
+                  <div class="price d-flex-main">
+                    <p>Rp. 965.500</p>
+                    <span>Rp. 1.097.500</span>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              ><div>
+                <img src="image/slider/image 5.png" alt="" />
+              </div>
+              <div class="slide-content">
+                <h3 class="sub fs-sub-heading fw-medium">Women's Robes</h3>
+                <div class="details">
+                  <div class="spesification d-flex-main">
+                    <img src="image/Union.png" alt="" />
+                    <p>4.5</p>
+                    <span>(325)</span>
+                  </div>
+                  <div class="price d-flex-main">
+                    <p>Rp. 755.000</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              ><div>
+                <img
+                  src="image/slider/6b39f25e-88f3-45fd-b5b9-d42812af8437 1.png"
+                  alt=""
+                />
+              </div>
+              <div class="slide-content">
+                <h3 class="sub fs-sub-heading fw-medium">Bag</h3>
+                <div class="details">
+                  <div class="spesification d-flex-main">
+                    <img src="image/Union.png" alt="" />
+                    <p>4.5</p>
+                    <span>(325)</span>
+                  </div>
+                  <div class="price d-flex-main">
+                    <p>Rp. 920.500</p>
+                    <span>Rp. 1.000.500</span>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              ><div>
+                <img src="image/slider/image 6.png" alt="" />
+              </div>
+              <div class="slide-content">
+                <h3 class="sub fs-sub-heading fw-medium">Men's Robes</h3>
+                <div class="details">
+                  <div class="spesification d-flex-main">
+                    <img src="image/Union.png" alt="" />
+                    <p>4.5</p>
+                    <span>(325)</span>
+                  </div>
+                  <div class="price d-flex-main">
+                    <p>Rp. 680.000</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
+
+      <section class="way-order bg-primary-300 padding-block-500">
+        <div class="container">
+          <div class="d-flex-main wrapper" style="--content: center">
+            <h2 class="fs-secondary-heading fw-semi-bold ff-primary">
+              The Easy Way to Order
+            </h2>
+            <div class="time-line-wrapper">
+              <div class="order-line">
+                <div class="line-text"><p>Select Product</p></div>
+              </div>
+              <div class="order-line">
+                <div class="line-text"><p>Login/Register</p></div>
+              </div>
+              <div class="order-line">
+                <div class="line-text"><p>Shopping bag</p></div>
+              </div>
+              <div class="order-line">
+                <div class="line-text"><p>Payment</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta padding-block-500">
+        <div class="container">
+          <h2 class="fs-secondary-heading ff-primary fw-semi-bold">
+            Subscribe Our Newsletter
+          </h2>
+          <form
+            class="cta-form d-flex-main"
+            style="--content: space-between"
+            action="subscribe"
+          >
+            <input type="text" placeholder="Type your mail" />
+            <button class="btn-cta">
+              <img src="image/Haruki Icons.png" alt="" />
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer padding-block-500">
+      <div class="container">
+        <div class="fwrapper">
+          <div class="fabout">
+            <img src="image/nav/logo.png" alt="" />
+            <p text-neutral-500>
+              We are an online fashion store that provides a variety of the
+              latest and trendy fashion products for men and women. We always
+              try to provide our customers with a pleasant and easy shopping
+              experience.
+            </p>
+          </div>
+
+          <div class="information product-category">
+            <h4 class="fs-sub-heading fw-medium">Product Category</h4>
+
+            <div class="information-content">
+              <a href="">Women's clothing</a>
+              <a href="">Menswear</a>
+              <a href="">Accessories</a>
+              <a href="">Shoes</a>
+            </div>
+          </div>
+          <div class="information Company">
+            <h4 class="fs-sub-heading fw-medium">Company</h4>
+            <div class="information-content">
+              <a href="">About</a>
+              <a href="">Contact</a>
+              <a href="">Privacy Policy</a>
+              <a href="">Terms of Service</a>
+            </div>
+          </div>
+
+          <div class="download">
+            <h4 class="fs-sub-heading fw-medium">Download our App</h4>
+
+            <div class="d-flex-main d-wrapper">
+              <button class="app-store">
+                <div class="btn-dwnload d-flex-main">
+                  <img src="image/footer/Vector.png" alt="" />
+                  <img src="image/footer/Frame 31.png" alt="" />
+                </div>
+              </button>
+              <button class="play-store">
+                <div class="btn-dwnload d-flex-main">
+                  <img src="image/footer/Group 3.png" alt="" />
+                  <img src="image/footer/Frame 34.png" alt="" />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
